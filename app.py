@@ -6,7 +6,7 @@ import pickle
 
 
 
-with open('./ML_APP/model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
